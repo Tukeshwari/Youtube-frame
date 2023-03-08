@@ -46,7 +46,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 .main-section{
     width: 100%;
@@ -407,20 +406,12 @@ button{
 @media only screen and (max-width:450px){
     hr{
         border: 1px solid rgb(132, 131, 131);
-        width: 200px;
+        width: 270px;
         margin: 12px 0;
     }
-    #left, #right{
-        /* padding: 1rem; */
-    }
-    /* .header{
-        width: 100vh;
-    } */
+ 
     .header{
         height: 55px;
-        background-color: rgb(233, 230, 230);
-        z-index: 2;
-        display: flex;
         justify-content: left;
         align-items: center;
     }
@@ -428,9 +419,88 @@ button{
         display: flex;
         justify-content: left;
         align-items: center;
-        gap: 0.7rem;
+        gap: 0.2rem;
         margin: 0 ; 
-       
+         
     }
+    .block{      
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .profile-photo{
+        height: 40px;
+        width: 40px;
+    }
+    .details{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 1rem;
+    }
+    ol{
+        display: flex;
+        /* gap: 10px; */
+        justify-content: space-around;
+    }
+    
+    .col{
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    display: inline;
+    }
+    .col p{
+        font-size: 10px;       
+    }
+    p{
+        letter-spacing: 1.2px;
+    }
+    button{
+        font-size: 13px;
+        border: none;
+        padding: 7px;
+        margin-left: 8rem;
+    }
+    
+    #left ul{
+        gap: 3px;
+    }
+    .right-icon{  
+        padding: 10px;
+        font-size: 13px;
+    }
+    iframe{
+        border-radius: 0;
+      }
+      .description{
+        padding: 12px;
+        border-radius: 15px;
+        margin: 0.5rem;   
+    } 
+    .comments{
+        display: flex;
+        gap: 1rem;
+        margin: 1.5rem 0.5rem;
+    } 
+
+    h4{
+        font-weight: 500;
+        font-size: 14.2px;
+    }
+    .span-item{
+        font-size: 12px;
+        margin-left: 10px;
+    }
+    .action{
+        display: flex;
+        justify-content:left;
+        margin-top: 0.5rem;
+        gap: 1rem;
+    }
+    .action li{
+        padding: 0 10px;
+    }
+
 
 }
