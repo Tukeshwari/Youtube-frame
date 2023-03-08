@@ -237,9 +237,6 @@ hr{
 /* for max-width 1000px*/
 @media only screen and (max-width:1050px){
 
-body{
-    background-color: antiquewhite;
-}
 .profile-photo{
     height: 30px;
     width: 30px;
