@@ -301,9 +301,6 @@ button{
     #left{
         width:80%
     } 
-    body{
-        background-color: rgb(89, 247, 91);
-    }
     .profile-photo{
         height: 30px;
         width: 30px;
@@ -347,9 +344,6 @@ button{
     }
 
     @media only screen and (max-width:570px){
-     body{
-        background-color: cyan;
-     }
      #left{
         width: 100%;
         margin: 2rem auto;
