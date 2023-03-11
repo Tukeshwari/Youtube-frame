@@ -47,6 +47,35 @@ body{
     justify-content: center;
     align-items: center;
 }
+.subnav-bar{
+    width: 100%;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subnav-bar ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    gap: 3rem;
+}
+.subnav-bar ul li{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    padding: 8px;
+    background-color: rgb(233, 230, 230);
+    width: 90px;
+    border-radius: 15px;
+    text-transform: uppercase;
+    letter-spacing: 0.2px;
+}
+.subnav-bar ul li:hover{
+    background-color: rgb(213, 210, 210);
+    cursor: pointer;
+}
 .main-section{
     width: 100%;
     height: auto;
@@ -287,7 +316,10 @@ button{
     }    
     .items{
     gap: 12px; 
-    }    
+    }      
+    .subnav-bar ul{
+        gap: 2rem;
+    }
     .main-section{
     display: flex;
     flex-direction:column;
@@ -342,6 +374,13 @@ button{
     }
 
     @media only screen and (max-width:570px){
+    .subnav-bar ul{
+        gap: 0.5rem;
+    }
+    .subnav-bar ul li{
+        font-size: 10px;
+        width: 70px;
+    }
      #left{
         width: 100%;
         margin: 2rem auto;
@@ -384,6 +423,13 @@ button{
     }
     }
 @media only screen and (max-width:450px){
+    .subnav-bar ul{
+        gap: 0.2rem;
+    }
+    .subnav-bar ul li{
+        font-size: 9px;
+        width: 70px;
+    }
     hr{
         border: 1px solid rgb(132, 131, 131);
         width: 270px;
